@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: black;
+  height: 100%;
+}
+
+a {
+  margin: 10px;
+}
+
+.app-container {
+  background-color: whitesmoke;
+  box-shadow: 0 4px 15px #6ae58e;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+
+.perfil-container {
+  padding: 20px; /* usado para criar espaço entre o conteúdo de um elemento e suas bordas internas */
+  height: 250px; /* tamanho vertical */
+  max-width: 1250px; /* largura */
+  border-radius: 15px;
+  background-color: #6ae58e;
+
+  display: flex; /* Ao aplicar display: flex em um elemento (o elemento pai), ele se torna um flex container (contêiner flexível),
+                   e seus filhos diretos se tornam flex items (itens flexíveis). O principal objetivo é fornecer uma maneira eficiente
+                    de organizar, alinhar e distribuir o espaço entre os itens dentro de um contêiner, mesmo quando suas dimensões são
+                     desconhecidas ou dinâmicas.*/
+
+  align-items: center; /*alinhar os filhos diretos ao centro do espaço interno */
+  gap: 50px; /* Espaço entre os filhos (não sei se direto apenas) */
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 0 4px 15px black;
+}
+
+.div-header {
+  display: flex;
+}
+
+.perfil-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 200px;
+  box-shadow: 0 4px 15px black;
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: px;
+  border-radius: 15px;
+  width: 600px;
+  height: 220px;
+}
+
+.perfil-info h1 {
+  font-size: 24pt;
+  margin: 0;
+}
+
+.perfil-info p {
+  color: white;
+}
+
+.perfil-info p {
+  font-size: 14pt;
+  margin-top: 5px;
+}
+
+.nav {
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.About-Me {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 15px #6ae58e;
+  width: 700px;
+}
+
+.div-nav {
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.div-nav a {
+  font-size: large;
+  background-color: #6ae58e;
+  border-radius: 15px;
+  color: black;
+  width: 100px;
+  text-align: center;
+}
+
+.section-block {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center; /* centraliza o título em relação à seção */
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.item-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.text-block {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 15px #6ae58e;
+  width: 300px;
+}
+
+.movie {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px black;
+}
+
+.movie-title {
+  margin-bottom: 40px;
+  color: #6ae58e;
+  text-align: center;
+}
+
+.citi-h1 {
+  color: white;
+}
+
+.citi-block {
+  background-color: #6ae58e;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 110px;
+}
